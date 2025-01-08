@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100%;
+  }
+
+  .navbar {
+    background-color: #92c123;
+    opacity: 0.9;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Lora:ital,wght@0,400..700;1,400..700&family=Yesteryear&display=swap');
+
+  .navbar .navbar-brand {
+    font-family: "Fleur de Leah";
+    font-weight: 1000;
+    font-size: 32px;
+    padding-left: 30px;
+    color: #422A0B;
+  }
+
+  .navbar .navbar-brand:hover {
+    color: #3B4B14;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+
+  .nav-link {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    color: #422A0B;
+    font-weight: bolder;
+  }
+
+  .nav-link:hover {
+    color: #3B4B14;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    padding-right: 24px;
+  }
+
+  .row {
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .home-feature {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+    border: 10px double #F7E9C3;
+  }
+
+  section {
+    background-color: #79664b;
+  }
+
+  section h2 {
+    font-family: "Yesteryear", serif;
+    font-size: 50px;
+    color: #F7E9C3;
+  }
+  
+  section p {
+    font-family: "Lora", serif;
+    font-size: large;
+    text-align: justify;
+    color: #F7E9C3;
+  }
+
+  .column1 {
+    padding: 0px 30px 0px 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .column2 {
+    padding: 0px 20px 0px 30px;
+  }
+
+  .col {
+    text-align: center;
+  }
+
+  .col button {
+    padding: 15px 30px;
+    border-radius: 50%;
+    background-color: #E8C77E;
+  }
+
+  .col button:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+  }
+
+  .col button span {
+    padding: 0px 0px 0px 10px;
+    font-family: "Yesteryear", serif;
+    font-size: 24px;
+    color: #422A0B;
+  }
+
+  .promotion {
+    background-image: url('../img/bananaleaf1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .fa {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-play {
+    background: #bb0000;
+    color: white;
+  }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #422A0B;
+    color: #CCA94C;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 18px;
+    padding: 7px;
+  }
+
+  .footer .brand {
+    font-family: "Fleur de Leah";
+    font-size: 22px;
+  }
+
+  .bgpic {
+    background-image: url('../img/homebrandbg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }

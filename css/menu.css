@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .parallax {
+    background-image: url('../img/menubg5.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+  }
+
+  .navbar {
+    background-color: #92c123;
+    opacity: 0.9;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Lora:ital,wght@0,400..700;1,400..700&family=Yesteryear&display=swap');
+
+  .navbar .navbar-brand {
+    font-family: "Fleur de Leah";
+    font-weight: 1000;
+    font-size: 32px;
+    padding-left: 30px;
+    color: #422A0B;
+  }
+
+  .navbar .navbar-brand:hover {
+    color: #3B4B14;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+
+  .nav-link {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    color: #422A0B;
+    font-weight: bolder;
+  }
+
+  .nav-link:hover {
+    color: #3B4B14;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    padding-right: 24px;
+  }
+
+  .container {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .container h1 {
+    padding-top: 7rem;
+    font-family: "Lora", serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+
+  .images img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border: 7px double whitesmoke;
+    border-radius: 5%;
+  }
+
+  .images img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+  }
+
+  @-webkit-keyframes flash {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+  @keyframes flash {
+    0%  {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+  .row {
+    width: 100%;
+    padding: 30px;
+    align-items: start;
+  }
+
+  .description h3 {
+    font-family: "Yesteryear", serif;
+    font-size: 3rem;
+    padding-top: 3%;
+    color: whitesmoke;
+  }
+
+  .description h4 {
+    font-family: "Yesteryear", serif;
+    font-size: 2rem;
+    color: whitesmoke;
+  }
+
+  .description p {
+    padding: 0% 8%;
+    font-family: "Lora", serif;
+    font-size: 1.1rem;
+    color: whitesmoke;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .col {
+    text-align: center;
+  }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #92c123;
+    color: #422A0B;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 18px;
+    padding: 7px;
+  }
+
+  .footer .brand {
+    font-family: "Fleur de Leah";
+    font-size: 22px;
+  }
+
+/*responsivenesss*/
+.navbar-toggler {
+  margin-right: 6%;
+}
