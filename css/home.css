@@ -34,6 +34,8 @@
     font-size: 18px;
     color: #422A0B;
     font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .nav-link:hover {
@@ -166,4 +168,25 @@
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+  }
+
+  button.navbar-toggler {
+    border: 2px solid #422A0B;
+    margin-right: 6%;
+  }
+  
+  span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(66, 42, 11)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  button.navbar-toggler:hover {
+    border: 2px solid #3B4B14;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+
+  span.navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(59, 75, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
   }
